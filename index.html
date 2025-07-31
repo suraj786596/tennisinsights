@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game Analysis Zone</title>
+  <style>
+    /* CSS unchanged */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      overflow-x: hidden;
+      color: white;
+      background-color: #444;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    video.background {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      object-fit: cover;
+      z-index: -1;
+      opacity: 0.2;
+    }
+
+    .content {
+      flex: 1;
+      z-index: 1;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h1 {
+      font-size: 6vw;
+      color: #ffeb3b;
+      text-shadow: 2px 2px 8px #000;
+    }
+
+    .profile-img {
+      width: 45vw;
+      max-width: 200px;
+      height: 45vw;
+      max-height: 200px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      object-fit: cover;
+      margin: 20px 0;
+      box-shadow: 0 0 10px #000;
+    }
+
+    p {
+      margin: 10px 0;
+      font-size: 4.5vw;
+      max-width: 90%;
+      color: #fff;
+      text-shadow: 1px 1px 4px #000;
+    }
+
+    .highlight {
+      color: #ff4081;
+      font-weight: bold;
+    }
+
+    .btn {
+      background: linear-gradient(45deg, #ff1744, #ff9100, #00e5ff, #d500f9);
+      background-size: 300% 300%;
+      animation: gradientShift 6s ease infinite, pop 1.5s ease-in-out infinite;
+      color: white;
+      padding: 20px 40px;
+      border: none;
+      border-radius: 14px;
+      font-size: 5vw;
+      font-weight: bold;
+      text-decoration: none;
+      margin-top: 25px;
+      cursor: pointer;
+      box-shadow: 0 0 10px #000;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+    }
+
+    .disclaimer {
+      font-size: 3.5vw;
+      color: #ccc;
+      margin-top: 30px;
+      text-shadow: 1px 1px 4px #000;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.8);
+      font-size: 4vw;
+    }
+
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (min-width: 768px) {
+      h1 { font-size: 40px; }
+      h2 { font-size: 22px; }
+      h3 { font-size: 25px; }
+      p { font-size: 18px; }
+      .btn { font-size: 24px; }
+      .disclaimer { font-size: 14px; }
+      .footer { font-size: 14px; }
+      .profile-img {
+        width: 180px;
+        height: 180px;
+      }
+    }
+
+    @keyframes pop {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.08); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+  </style>
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '609514868552856');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=609514868552856&ev=PageView&noscript=1"
+  /></noscript>
+</head>
+
+<body>
+
+  <video class="background" autoplay muted loop playsinline>
+    <source src="https://pixeldrain.com/api/file/t6vceq71" type="video/mp4">
+  </video>
+
+  <div class="content">
+    <h1>🎯 TENNIS BETTING TIPS 🎯</h1>
+    <img src="https://i.postimg.cc/nzLXjwfd/6201703291482653904.jpg"
+         alt="Game Analysis" class="profile-img" />
+    <h2>👑 10 Years of Performance Insights in Tennis</h2>
+    <h3>👑 8 Years of Match Experience in Cricket</h3>
+    <p>📢 <strong>Free Tennis & Cricket Insights</strong> 📢</p>
+    <p>🔥 <span class="highlight">68/70 Tennis Match Record 2025</span> 🔥</p>
+    <p>🎯 <span class="highlight">65/70 IPL Match Performance 2025</span> 🎯</p>
+
+    <p style="margin-top: 25px;">✔️👇 <strong>Join now for free</strong> ✔️👇</p>
+
+    <a href="https://t.me/+5438xxgK-6hhY2U1" target="_blank" class="btn">
+      SUBSCRIBE NOW 🚀
+    </a>
+
+    <p class="disclaimer">Disclaimer: Only for audience age 18+.</p>
+  </div>
+
+  <div class="footer">
+    <a href="https://wa.me/918604980472?text=Hi%20I%20saw%20your%20Promox%20Ad" target="_blank">
+      Advertising by PromoX Agency
+    </a>
+  </div>
+
+</body>
+</html>
